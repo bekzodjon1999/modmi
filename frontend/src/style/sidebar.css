@@ -1,0 +1,55 @@
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+padding: 20px 5px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+
+    font-size: 20px;
+    margin: 30px 0;
+    gap: 5px;
+}
+.logo{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+.icons{
+    width: 25px;
+    color: #2e2eac;
+    height: 25px;
+}
+.menu-item {
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, #8e98e8 5%, #FFFFFF 20%); /* 20% yuqori qismi to'q ko'k, pastki qismi oq */
+
+    color: #3C47A5; /* Matn rangi to'q ko'k */
+    font-size: 16px;
+    cursor: pointer;
+    width:100%;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item .icon {
+    width: 16px;
+    height: 16px;
+    background-color: #8e98e8;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
