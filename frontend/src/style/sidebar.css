@@ -1,23 +1,54 @@
 .sidebar {
     width: 250px;
     background-color: #f8f9fa;
-padding: 20px 5px;
+padding: 20px 0px;
 }
+.sideLeft{
 
+   max-width: 1400px;
+    min-width: 750px;
+}
 .sidebar h2 {
     margin-bottom: 30px;
 }
-
+.chatQuantity{
+    width: 25px;
+    height: 30px;
+    background: #8e98e8;
+    text-align: center;
+    border-radius: 5px;
+}
 .sidebar ul {
+    margin-bottom: 100px;
     list-style: none;
     padding: 0;
 }
-
+.nameUser1{
+    width: 40px;
+    height: 40px;
+}
+.textBox1 h6{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.textBox1 p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
 .sidebar ul li {
-
+display: flex;
+text-decoration: none;
     font-size: 20px;
     margin: 30px 0;
     gap: 5px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    gap: 8px;   
 }
 .logo{
     margin: 0 auto;
@@ -50,6 +81,10 @@ padding: 20px 5px;
     background-color: #8e98e8;
     border-radius: 4px;
     margin-right: 10px;
+}
+.logout{
+    width: 60px;
+    height: 40px;
 }
 
 

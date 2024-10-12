@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dashboard1{
+    /*width: 90%;*/
+    margin: 0 auto;
+    background-color:#E0E0E0;
+    height: auto;
+    min-height: 100vh;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    gap: 40px;
+}
+.aboutUser{
+    position: relative;
+    width: 300px;
+    /*border: 2px solid blue;*/
+}
+.btns{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.profileBtn{
+    width: 80px;
+    background-color: rgb(79, 79, 175);
+    height: 30px;
+    color:white;
+    border-radius:6px;
+    border:none;
+
+}
+.profileCVV{
+    width: 80px;
+    background-color: white;
+    height: 30px;
+    color:black;
+    border-radius:6px;
+    border:1px solid black;
+    margin-top: 10px;
+
+}
+.userImg{
+    width: 100%;
+    height: auto;
+
+}
+.userimg1{
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    margin: 0 auto;
+    width:200px;
+    height: 200px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+.photoIcons{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 65px;
+    left: 75px;
+    color: blue;
+}
+.userImg h4{
+    margin-top: 180px;
+    text-align: center;
+}
+.ijtimoiyTarmoq{
+    padding-left: 50px;
+    margin-top: 50px;
+
+}
+.ijtimoiyTarmoq1{
+    margin-bottom: 30px;
+    gap: 5px;
+    display: flex;
+}
+.ijtimoiyTarmoq2{
+
+    margin-bottom: 30px;
+    gap: 10px;
+    display: flex;
+    width: 180px;
+    /*border: 1px solid;*/
+    justify-content: space-between;
+}
+.ins{
+    width: 30px;
+    height: 30px;
+}
+.ijtimoiyTarmoq2 h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.plus{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #8e98e8;
+}
+.userIns{
+    width: 150px;
+    background: 	#C8C8C8;
+    border-radius: 5px;
+}
+.topinput{
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+}
+.firstInput input{
+    font-size: 16px;
+}
+.topinput p{
+    margin: 5px 0;
+    padding: 0;
+}
+.firstInput p{
+    gap: 8px;
+}
+.btnsFooter {
+    display: flex;
+    margin: 40px;
+    gap: 10px;
+    justify-content: end;
+}
+.exit{
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 6px;
+}.save{
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 6px;
+    color: white;
+    background-color: blue;
+}
